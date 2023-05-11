@@ -26,11 +26,6 @@ h3 {
   font-weight: 400;
 }
 
-h4 {
-  font-size: 18px;
-  font-weight: 700;
-}
-
 p {
   font-size: 18px;
   font-weight: 400;
@@ -59,7 +54,6 @@ a {
 }
 
 .nav-container p {
-  font-size: 18px;
   font-weight: 700;
 }
 
@@ -102,7 +96,8 @@ a {
   line-height: 1.2;
 }
 
-.header-container h4 {
+.header-container p {
+  font-weight: 700;
   margin-bottom: 30px;
   line-height: 1.2;
 }
@@ -152,7 +147,8 @@ a {
   flex-direction: column;
 }
 
-.team-member-info h4 {
+.team-member-name {
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -210,6 +206,7 @@ a {
 }
 
 .footer-heading {
+  font-weight: 700;
   text-align: center;
   line-height: 1.2;
 }
