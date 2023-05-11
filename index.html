@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6e85bad30b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/rwd/tablet.css" />
+    <link rel="stylesheet" href="styles/rwd/small-computer.css" />
+    <link rel="stylesheet" href="styles/rwd/desktop.css" />
+    <title>Projekt 2</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav-container">
+          <p>Cukiereczek</p>
+          <ul class="not-visible-on-mobile">
+            <li><a href="#team">o nas</a></li>
+            <li><a href="#offer">oferta</a></li>
+            <li class="disabled-nav-item">kontakt</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header-section">
+      <img src="assets/images/headerbg.jpg" alt="" class="header_background" />
+      <div class="landing-shadow">
+        <div class="container">
+          <div class="header-container">
+            <h1>Osłodź swoje życie naszymi cukierkami.</h1>
+            <h4>Zobacz ofertę łakoci, daj się zasokczyć!</h4>
+            <a href="#offer" class="offer-button">oferta</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="team-section" id="team">
+        <div class="container">
+          <h2>Nasz zespół</h2>
+          <ul class="team-list">
+            <li class="team-member">
+              <img
+                src="assets/images/specjalista1.jpg"
+                alt="Zdjęcie Jana Kowalskiego"
+                class="rounded-img"
+              />
+              <div class="team-member-info">
+                <h4>Jan Kowalski [ cukiernik ]</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Iusto, eligendi dolores. Magni aspernatur facilis quam
+                  doloremque, consectetur tempore, ex temporibus enim earum quae
+                  odio, beatae sit blanditiis placeat eligendi veniam.
+                </p>
+              </div>
+            </li>
+            <li class="team-member">
+              <img
+                src="assets/images/specjalista2.jpg"
+                alt="Zdjęcie Emila Kowalskiego"
+                class="rounded-img"
+              />
+              <div class="team-member-info">
+                <h4>Emil Kowalski [ kelner ]</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Iusto, eligendi dolores. Magni aspernatur facilis quam
+                  doloremque, consectetur tempore, ex temporibus enim earum quae
+                  odio, beatae sit blanditiis placeat eligendi veniam.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="offer-section" id="offer">
+        <div class="container">
+          <h2>Oferta naszych słodyczy:</h2>
+          <div class="boxes-container">
+            <div class="box">
+              <h3>Oferta 1</h3>
+              <p>(nowość)</p>
+              <div class="new-offer-dot"></div>
+            </div>
+            <div class="box">
+              <h3>Oferta 2</h3>
+            </div>
+            <div class="box">
+              <h3>Oferta 3</h3>
+            </div>
+            <div class="box">
+              <h3>Oferta 4</h3>
+            </div>
+            <div class="box">
+              <h3>Oferta 5</h3>
+            </div>
+            <div class="box">
+              <h3>Oferta 6</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-container">
+          <div>
+            <h4 class="footer-heading">
+              Cukiereczek - wszelkie prawa zastrzeżone, 2023
+            </h4>
+          </div>
+          <div class="footer-social-media-icons">
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

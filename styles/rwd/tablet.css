@@ -1,0 +1,61 @@
+@media only screen and (min-width: 769px) {
+  h1,
+  h2 {
+    font-size: 36px;
+  }
+
+  .not-visible-on-mobile {
+    display: block;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .nav {
+    padding: 15px 0;
+  }
+
+  .nav ul li {
+    display: inline-block;
+    padding: 0 23px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .header-container h1 {
+    margin-bottom: 60px;
+    line-height: 1;
+  }
+
+  .header-container h4 {
+    margin-bottom: 40px;
+  }
+
+  .offer-button {
+    width: 160px;
+    padding: 12px 57px;
+  }
+
+  .team-list {
+    gap: 70px;
+  }
+
+  .team-member-info {
+    text-align: center;
+    white-space: pre-line;
+  }
+
+  .team-member-info h4 {
+    margin-bottom: 0;
+  }
+
+  .rounded-img {
+    margin: 0 auto 35px;
+  }
+
+  .box {
+    width: 250px;
+    height: 250px;
+  }
+}
